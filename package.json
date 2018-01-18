@@ -1,0 +1,52 @@
+{
+  "name": "svg-editor-poc",
+  "version": "1.0.0",
+  "description": "React-based SVG editor POC",
+  "main": "src/index.js",
+  "scripts": {
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kana-sama/svg-editor-poc.git"
+  },
+  "author": "kana-sama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kana-sama/svg-editor-poc/issues"
+  },
+  "homepage": "https://github.com/kana-sama/svg-editor-poc#readme",
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.9",
+    "@storybook/addons": "^3.3.9",
+    "@storybook/react": "^3.3.9",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-flow-react-proptypes": "^13.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.63.1",
+    "flow-typed": "^2.2.3",
+    "html-webpack-plugin": "^2.30.1",
+    "prettier": "^1.10.2",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "normalized-styled-components": "^1.0.17",
+    "polished": "^1.9.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-act": "^1.5.1",
+    "styled-components": "^2.4.0"
+  }
+}
